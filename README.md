@@ -10,8 +10,8 @@ Download it here: https://nodejs.org
 2. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.gitweffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-cd your-repo-name
+git clone https://github.com/Alolononon/ServiHub.git
+cd ServiHub
 ```
 
 
