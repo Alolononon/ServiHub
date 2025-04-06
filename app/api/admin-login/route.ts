@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
   }
 
   // Match secret admin password
-  const ADMIN_SECRET = process.env.ADMIN_PASSWORD || "adminsecret123"
+  const ADMIN_SECRET = process.env.ADMIN_PASSWORD || "adminsecret123" // password supposed to be in .env file
   if (password !== ADMIN_SECRET) {
     return NextResponse.json({ error: "Invalid admin key" }, { status: 401 });
   }
