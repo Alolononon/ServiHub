@@ -44,8 +44,6 @@ DATABASE_URL="file:./dev.db" npx prisma db push
 npm run dev
 ```
 
-Then open your browser and go to:
-http://localhost:3000
+Then open your browser and go to:http://localhost:3000
 
-Note: 
-The default admin password is: adminsecret123
+Note: The default admin password is: adminsecret123
