@@ -29,21 +29,17 @@ npm install
 ```
 
 ### 3. Set Up the Database
-For Windows (PowerShell):
 ```bash
-$env:DATABASE_URL = "file:./dev.db"
 npx prisma db push
 ```
-For macOS/Linux (bash/zsh):
-```bash
-DATABASE_URL="file:./dev.db" npx prisma db push
-```
+
 
 ### 4. Start the Development Server
 ```bash
 npm run dev
 ```
 
-Then open your browser and go to:http://localhost:3000
+### 5. Access the App
+Open your browser and go to: http://localhost:3000
 
 Note: The default admin password is: adminsecret123
